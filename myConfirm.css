@@ -1,0 +1,65 @@
+ h3,button{
+            margin:0px;
+            padding:0px;
+          }
+          .my-confirm{
+            font-family:微软雅黑;
+            position: absolute;
+            z-index: 99999;
+            width:400px;
+            height:200px;
+            border:1px solid #;
+            background:#f8f4f4;
+            -moz-box-shadow: 0px 0px 5px #a9a8a8;  
+            -webkit-box-shadow:0px 0px 5px #a9a8a8;  
+            box-shadow:0px 0px 5px #a9a8a8;
+          
+          }
+          .my-confirm-header{
+             position: relative;
+          }
+          .my-confirm-title{
+            height:30px;
+            padding-left:4px;
+            line-height: 30px;
+            font-size:13px;
+          }
+          .my-confirm-close{
+            position:absolute;
+            right:10px;
+            top:4px;
+            cursor: pointer;
+          }
+          .my-confirm-content{
+            height:110px;
+            padding:10px;
+          }
+          .my-confirm-foot{
+             height:40px;
+          }
+          .my-confirm button{
+             float:right;
+             width:50px;
+             padding:4px;
+             margin-top:5px;
+             outline: none;
+              font-family:微软雅黑;
+           }
+           .my-confirm button:nth-child(1){
+              margin-right:5px;
+           }
+           .my-confirm button:nth-child(2){
+              margin-right:10px;
+           }
+           .my-confirm-Mask{
+             z-index:9999;
+             position:fixed;
+             
+             left:0px;
+             right:0px;
+             bottom:0px;
+             top:0px;
+             filter:alpha(opacity=0);  
+             -moz-opacity:0;  
+             opacity: 0;  
+           }
